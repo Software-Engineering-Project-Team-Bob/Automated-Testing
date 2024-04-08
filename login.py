@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Chrome()
 
 # Open the web page
-driver.get("http://localhost:4000")
+driver.get("http://localhost:3000")
 
 # Wait for the page to load
 driver.implicitly_wait(10)
